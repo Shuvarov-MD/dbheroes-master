@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 	//Создание запроса к серверу
-	const createRequest = () => fetch('./dbHeroes.json', { method: 'GET', headers: { 'Content-Type': 'application/json' } });
+	const createRequest = () => fetch('../dbHeroes.json', { method: 'GET', headers: { 'Content-Type': 'application/json' } });
 
 
 	//Создание карточки героя
